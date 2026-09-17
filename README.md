@@ -1,32 +1,30 @@
 <!-- ========================================================================= -->
 <!-- NOSTRO1337 GITHUB PROFILE README                                          -->
-<!-- PALETTE: MONOCHROME STEALTH DARK (#000000 / #0D1117 / #30363D / #FFFFFF)  -->
+<!-- PALETTE: MONOCHROME STEALTH DARK (#000000 / #0D1117 / #21262D / #FFFFFF)  -->
 <!-- ROLE: SYSTEM ADMINISTRATOR & INFRASTRUCTURE ENGINEER                      -->
 <!-- ========================================================================= -->
 
 <div align="center">
 
-  <!-- HEADER BANNER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0d1117,100:161b22&height=220&section=header&text=Nostro&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=%3E_System%20Administrator%20%7C%20Infrastructure%20%26%20Automation&descSize=18&descColor=8b949e&descAlignY=62" width="100%" alt="Nostro Banner" />
+  <!-- HEADER BANNER (LOCAL SVG FOR 100% UPTIME & INSTANT LOAD) -->
+  <p align="center">
+    <img src="./assets/banner.svg" width="100%" alt="Nostro Banner" />
+  </p>
 
   <!-- DYNAMIC TERMINAL PROMPT -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1200&color=E6EDF3&center=true&vCenter=true&width=580&lines=%24+whoami+%23+Nostro%2C+System+Administrator;%24+cat+%2Fetc%2Fmotd+%23+Infrastructure+%26+Automation;%24+uptime+-p+%23+up+99.999%25%2C+zero+downtime;%24+systemctl+status+career+%23+active+(running)" alt="Typing Terminal" />
-  </a>
-
-  <!-- QUICK SOCIAL CONTACTS -->
   <p align="center">
-    <a href="https://t.me/YOUR_TELEGRAM" target="_blank">
-      <img src="https://img.shields.io/badge/Telegram-0D1117?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+    <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1200&color=E6EDF3&center=true&vCenter=true&width=580&lines=%24+whoami+%23+Nostro%2C+System+Administrator;%24+cat+%2Fetc%2Fmotd+%23+Infrastructure+%26+Automation;%24+uptime+-p+%23+up+99.999%25%2C+zero+downtime;%24+systemctl+status+career+%23+active+(running)" alt="Typing Terminal" />
     </a>
-    &nbsp;
-    <a href="mailto:YOUR_EMAIL@example.com" target="_blank">
-      <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    &nbsp;
-    <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
+  </p>
+
+  <!-- QUICK SOCIAL CONTACTS (HIGH CONTRAST GITHUB BUTTONS) -->
+  <p align="center">
+    <a href="https://t.me/nostro1337" target="_blank"><img src="https://img.shields.io/badge/Telegram-21262D?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
+    &nbsp;&nbsp;
+    <a href="mailto:nostro.work@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-21262D?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    &nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/egor-sotnikov-806306437" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-21262D?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   </p>
 
 </div>
@@ -76,12 +74,12 @@ sys_quote: "If it hurts, automate it. If it moves, monitor it. If it breaks, res
 ### 📊 Метрики и активность
 
 <div align="center">
-  <!-- STATS & TOP LANGS CARDS -->
+  <!-- STATS & TOP LANGS CARDS (EXTENDED PROXY FOR 100% RELIABILITY) -->
   <a href="https://github.com/nostro1337">
-    <img height="170em" src="https://github-readme-stats.vercel.app/api?username=nostro1337&show_icons=true&bg_color=0D1117&title_color=FFFFFF&text_color=8B949E&icon_color=E6EDF3&border_color=30363D&hide_border=false" alt="GitHub Stats" />
+    <img height="170em" src="https://github-stats-extended.vercel.app/api?username=nostro1337&show_icons=true&bg_color=0D1117&title_color=FFFFFF&text_color=8B949E&icon_color=E6EDF3&border_color=30363D&hide_border=false" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/nostro1337">
-    <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nostro1337&layout=compact&bg_color=0D1117&title_color=FFFFFF&text_color=8B949E&border_color=30363D&hide_border=false" alt="Top Languages" />
+    <img height="170em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=nostro1337&layout=compact&bg_color=0D1117&title_color=FFFFFF&text_color=8B949E&border_color=30363D&hide_border=false" alt="Top Languages" />
   </a>
   <br/><br/>
   <!-- STREAK STATS -->
