@@ -1,0 +1,35 @@
+name: Generate Snake Contribution Grid
+
+on:
+  schedule:
+    # Запуск каждые 12 часов
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Snake SVG files (Monochrome Theme)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#161b22&color_dots=#ebedf0,#d0d7de,#8c959f,#57606a,#24292f
+            dist/github-snake-dark.svg?color_snake=#ffffff&color_dots=#161b22,#30363d,#6e7681,#8b949e,#ffffff
+
+      - name: Deploy SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
